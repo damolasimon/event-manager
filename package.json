@@ -4,6 +4,7 @@
   "description": "manage an events center, is an app that  will help you accept applications to use your center",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --watch server --exec babel-node -- server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/damolasimon/event-manager/issues"
   },
-  "homepage": "https://github.com/damolasimon/event-manager#readme"
+  "homepage": "https://github.com/damolasimon/event-manager#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  }
 }
