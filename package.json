@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/damolasimon/event-manager/issues"
   },
-  "homepage": "https://github.com/damolasimon/event-manager#readme"
+  "homepage": "https://github.com/damolasimon/event-manager#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
